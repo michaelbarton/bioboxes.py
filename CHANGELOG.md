@@ -5,6 +5,11 @@ project adheres to [Semantic Versioning](http://semver.org/).
 
 ## v0.5.0 - DATE
 
+### Changed
+
+  * Default to a docker.errors.NotFound python exception when the image can't
+    be found. This is instead of creating biobox.exception.ImageNotFound.
+
 ## v0.4.3 - 2016-09-09
 
 ### Fixed
